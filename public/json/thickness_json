@@ -1,0 +1,109 @@
+class ThicknessJson {
+    getThickness() {
+      const thickness = [
+        {
+          id: 1,
+          name: '200 mm',
+          productId: '6',
+          kiCode: '1234',
+          unit: 'pallets'
+        },
+        {
+          id: 2,
+          name: '200 mm',
+          productId: '6',
+          kiCode: '2432',
+          unit: 'pallets'
+        },
+        {
+          id: 3,
+          name: '300 mm',
+          productId: '7',
+          kiCode: '6323',
+          unit: 'pallets'
+        },
+        {
+          id: 4,
+          name: '400 mm',
+          productId: '1',
+          kiCode: '3412',
+          unit: 'pallets'
+        },
+        {
+          id: 5,
+          name: '500 mm',
+          productId: '5',
+          kiCode: '5153',
+          unit: 'pallets'
+        },
+        {
+          id: 6,
+          name: '600 mm',
+          productId: '5',
+          kiCode: '2222',
+          unit: 'pallets'
+        },
+        {
+          id: 7,
+          name: '200 mm',
+          productId: '4',
+          kiCode: '2513',
+          unit: 'pallets'
+        },
+        {
+            id: 8,
+            name: '100 mm',
+            productId: '4',
+            kiCode: '341',
+            unit: 'pallets'
+          },
+          {
+            id: 9,
+            name: '900 mm',
+            productId: '1',
+            kiCode: '2224',
+            unit: 'pallets'
+          },
+          {
+            id: 10,
+            name: '300 mm',
+            productId: '3',
+            kiCode: '1412',
+            unit: 'pallets'
+          },
+          {
+            id: 11,
+            name: '11 mm',
+            productId: '1',
+            kiCode: '123',
+            unit: 'pallets'
+          },
+          {
+            id: 12,
+            name: '12 mm',
+            productId: '2',
+            kiCode: '153',
+            unit: 'pallets'
+          },
+          {
+            id: 13,
+            name: '13 mm',
+            productId: '1',
+            kiCode: '5123',
+            unit: 'pallets'
+          },
+          {
+            id: 14,
+            name: '14 mm',
+            productId: '1',
+            kiCode: '513',
+            unit: 'pallets'
+          }
+      ];
+  
+      return Promise.resolve(thickness);
+    }
+  }
+  
+  export const thicknessJson = new ThicknessJson();
+  

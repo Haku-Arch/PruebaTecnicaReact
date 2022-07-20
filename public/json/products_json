@@ -1,0 +1,38 @@
+class ProductsJson {
+  getProducts() {
+    const products = [
+      {
+        id: '1',
+        name: 'Healthcare Erbology'
+      },
+      {
+        id: '2',
+        name: 'Makeup Lancome Rouge'
+      },
+      {
+        id: '3',
+        name: 'Layering Bracelets Collection'
+      },
+      {
+        id: '4',
+        name: 'Skincare Necessaire'
+      },
+      {
+        id: '5',
+        name: 'Skincare Soja CO'
+      },
+      {
+        id: '6',
+        name: 'Makeup Lipstick'
+      },
+      {
+        id: '7',
+        name: 'Healthcare Ritual'
+      }
+    ];
+
+    return Promise.resolve(products);
+  }
+}
+
+export const productJson = new ProductsJson();
